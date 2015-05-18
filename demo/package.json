@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo for gulp-scss-lint-visualstudio",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-scss-lint": "^0.2.0",
+    "gulp-scss-lint-visualstudio": "^0.0.1"
+  }
+}

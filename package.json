@@ -1,0 +1,27 @@
+{
+  "name": "gulp-scss-lint-visualstudio",
+  "version": "0.0.1",
+  "description": "Visual Studio reporter for gulp-scss-lint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsek/gulp-scss-lint-visualstudio.git\""
+  },
+  "keywords": [
+    "scss-lint",
+    "visualstudio",
+    "reporter",
+    "scss"
+  ],
+  "author": "J-Sek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsek/gulp-scss-lint-visualstudio.git\"/issues"
+  },
+  "homepage": "https://github.com/jsek/gulp-scss-lint-visualstudio.git\"",
+  "dependencies": {
+  }
+}
