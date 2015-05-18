@@ -1,6 +1,6 @@
 {
   "name": "gulp-scss-lint-visualstudio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Visual Studio reporter for gulp-scss-lint",
   "main": "index.js",
   "scripts": {
