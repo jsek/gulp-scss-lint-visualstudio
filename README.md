@@ -10,6 +10,8 @@ Stylish reporter for gulp-scss-lint, compatible with Visual Studio
 
 ## Overview
 
+By default reporter will print issues of first file with any errors or warnings and immediately exit process with code 1.
+
 Example console output:
 
 ![screenshot](images/screenshot_1.0.0.png)
@@ -39,6 +41,13 @@ Alternative usage for errors only:
 ``` javascript
     gulp.src('/scss/*.scss')
         .pipe( scssLint({ customReport: vsReporter({errorsOnly: true}) }) )
+```
+
+Alternative configuration for printing issues for all files: (process won't exit with code 1)
+
+``` javascript
+    gulp.src('/scss/*.scss')
+        .pipe( scssLint({ customReport: vsReporter({printAll: true}) }) )
 ```
 
 Example integration with Visual Studio (Modification in `csproj` file):
