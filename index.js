@@ -21,7 +21,7 @@ getReporter = function(opts) {
   opts = extend(opts);
   print = function(file, stream) {
     var i, issue, len, message, place, ref;
-    if (file.scsslint.errors > 0 || !opts.errorsOnly) {
+    if ((opts.errorsOnly && file.scsslint.errors > 0) || file.scsslint.issues > 0) {
       ref = file.scsslint.issues;
       for (i = 0, len = ref.length; i < len; i++) {
         issue = ref[i];

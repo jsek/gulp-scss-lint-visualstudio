@@ -16,7 +16,7 @@ getReporter = (opts = {}) ->
     opts = extend opts
 
     print = (file, stream) ->
-        if file.scsslint.errors > 0 or not opts.errorsOnly
+        if (opts.errorsOnly and file.scsslint.errors > 0) or file.scsslint.issues > 0
 
             for issue in file.scsslint.issues
                 if (opts.errorsOnly and issue.severity isnt 'error') then continue
