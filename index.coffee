@@ -21,7 +21,7 @@ getReporter = (opts = {}) ->
             for issue in file.scsslint.issues
                 if (opts.errorsOnly and issue.severity isnt 'error') then continue
                 place = "(#{issue.line},#{issue.column})"
-                message = "#{file.path}#{place}: ScssLint #{issue.severity}: #{issue.reason}"
+                message = "#{file.path}#{place}: ScssLint #{issue.severity}: (#{issue.linter}) #{issue.reason}"
                 process.stderr.write(message+'\n')
 
             unless opts.printAll
