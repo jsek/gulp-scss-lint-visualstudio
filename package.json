@@ -1,6 +1,6 @@
 {
   "name": "gulp-scss-lint-visualstudio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Visual Studio reporter for gulp-scss-lint",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,5 @@
     "url": "https://github.com/jsek/gulp-scss-lint-visualstudio.git\"/issues"
   },
   "homepage": "https://github.com/jsek/gulp-scss-lint-visualstudio.git\"",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
